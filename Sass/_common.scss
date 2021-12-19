@@ -1,0 +1,95 @@
+/*==============================
+        COMMON CODE
+ ==============================*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Georgia, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+button,
+button:focus,
+input,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.container {
+    max-width: 960px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+section,
+header,
+footer {
+    width: 100%;
+    clear: both;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+
+p.paragraph {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: $txtColor;
+    text-align: justify;
+}
+
+p.desciption {
+    color: $txtColor;
+}
+
+small {
+    font-size: 1.2rem;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    background: #222222;
+    color: #fff;
+    border: 0;
+    margin: .5rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    &:focus {
+        outline: 1px solid $pmColor;
+    }
+}

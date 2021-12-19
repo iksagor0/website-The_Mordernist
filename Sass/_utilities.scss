@@ -1,0 +1,64 @@
+// ========== Fonts ==========
+@font-face {
+    font-family: Georgia;
+    src: url("../Font/GeorgiaRegularfont.ttf");
+}
+
+// ========== Colors ==========
+$pmColor: #76c38f;
+$txtColor: #979797;
+
+
+
+
+
+
+
+
+
+// HERO IMAGE BORDER ANIMATION
+@keyframes border {
+    0% {
+        border: 2rem solid rgba(255, 255, 255, 0);
+    }
+
+    10% {
+        border: 2rem solid rgba(255, 255, 255, 0.125);
+    }
+
+    20% {
+        border: 2rem solid rgba(255, 255, 255, 0.25);
+    }
+
+    30% {
+        border: 2rem solid rgba(255, 255, 255, 0.5);
+    }
+
+    40% {
+        border: 2rem solid rgba(255, 255, 255, 0.6);
+    }
+
+    50% {
+        border: 2rem solid rgba(255, 255, 255, .7);
+    }
+
+    60% {
+        border: 2rem solid rgba(255, 255, 255, .6);
+    }
+
+    70% {
+        border: 2rem solid rgba(255, 255, 255, .5);
+    }
+
+    80% {
+        border: 2rem solid rgba(255, 255, 255, .25);
+    }
+
+    90% {
+        border: 2rem solid rgba(255, 255, 255, .125);
+    }
+
+    100% {
+        border: 2rem solid rgba(255, 255, 255, 0);
+    }
+}

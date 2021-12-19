@@ -1,0 +1,304 @@
+@media only screen and (min-width: 200px) and (max-width: 830px) {
+    .header-area .nav-bar ul li a {
+        padding: .8rem 1.2rem;
+    }
+}
+
+
+
+
+
+
+/*===============================
+             Tab View
+ ================================*/
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+    html {
+        font-size: 58.5%;
+    }
+header {
+    position: absolute;
+}
+    .menu-icon {
+        z-index: 9999;
+        display: block;
+    }
+
+    #hero {
+        position: relative;
+    }
+
+    .header-area {
+        .nav-bar {
+            width: 25rem;
+            height: 100vh;
+            background: #000;
+            position: fixed;
+            top: 0;
+            right: -25rem;
+            z-index: 999;
+            transition: .5s;
+
+            &.side-bar-active {
+                right: 0;
+                display: block;
+            }
+
+            .nav-header {
+                display: block;
+                width: 100%;
+                height: 20%;
+                padding: 5rem 0;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+
+                h6 {
+                    font-size: 2rem;
+                    text-align: center;
+                    font-weight: bold;
+                }
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                background: rgba(107, 107, 107, 0.1);
+
+                li {
+                    display: block;
+
+                    a {
+                        border-radius: 0;
+                        line-height: 3rem;
+                        border-bottom: .5px solid rgba(255, 255, 255, 0.1);
+                        border-top: .5px solid rgba(255, 255, 255, 0.1);
+
+                        &.menu-active {
+                            background: none;
+                        }
+                    }
+
+                    ul {
+                        margin-left: 4rem;
+                        width: 100%;
+                        position: unset;
+
+                        li {
+                            display: block;
+
+                            a {
+                                padding: .7rem 1rem;
+                                line-height: 2rem;
+                                font-size: 1.5rem;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    // =========== Carousel ==========
+    .carousel-item .text-area {
+        max-width: none;
+        width: 75%;
+        float: none;
+        padding: 5rem 0;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 5.5rem;
+            line-height: 5.5rem;
+        }
+
+        p.paragraph {
+            font-size: 2rem;
+        }
+    }
+
+    .carousel-item .hero-image {
+        max-width: none;
+        width: 75%;
+        max-height: none;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .inner-service-area {
+        justify-content: space-around;
+
+        .service-item {
+            width: 45%;
+            padding: 4rem;
+            margin: 2rem 0;
+
+        }
+    }
+
+    .inner-porfolio-area .porfolio-item {
+        width: 47%;
+    }
+
+    .portolio-header::before,
+    .portolio-header::after {
+        width: 32%;
+    }
+
+    .inner-footer-area {
+        justify-content: space-around;
+
+        .footer-item {
+            width: 42%;
+            margin: 2rem 0;
+        }
+    }
+
+    #footer p.footer-header {
+        font-size: 2.2rem;
+    }
+
+    // ========= End of 768px =========  
+}
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .carousel-item .text-area h1 {
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+    }
+
+    #copyright {
+        text-align: center;
+    }
+
+    #copyright .inner-copyright-area .download {
+        text-align: center;
+    }
+
+    .inner-footer-area .footer-item {
+        width: 48%;
+    }
+
+    .inner-service-area .service-item {
+        width: 46%;
+        padding: 3rem;
+        margin: 1rem 0;
+    }
+
+    .portolio-header::before,
+    .portolio-header::after {
+        width: 27%;
+    }
+    // End of 576px
+}
+
+
+
+
+
+
+
+
+
+/*==================================
+            Mobile View
+ ===================================*/
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+    .carousel-item {
+        padding: 3rem;
+    }
+
+    .carousel-item .text-area,
+    .carousel-item .hero-image {
+        width: 85%;
+    }
+
+    .carousel-item .text-area {
+        width: 85%;
+    }
+
+    .carousel-item .text-area h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .carousel-item .text-area p.paragraph {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    .inner-footer-area .footer-item {
+        width: 50%;
+    }
+
+    .portolio-header::before,
+    .portolio-header::after {
+        width: 24%;
+    }
+
+    .inner-porfolio-area {
+        grid-gap: 1rem;
+    }
+
+    .inner-porfolio-area .porfolio-item {
+        width: 48%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 450px) {
+
+    .carousel-item .text-area,
+    .carousel-item .hero-image {
+        width: 100%;
+    }
+
+    .inner-service-area .service-item {
+        padding: 1rem;
+
+        i {
+            font-size: 7rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .inner-footer-area {
+        padding: 0 2rem;
+
+        .footer-item {
+            width: 100%;
+
+            p.footer-header {
+                text-align: center;
+                font-size: 2.7rem;
+            }
+        }
+    }
+
+    .inner-porfolio-area .porfolio-item .overlay {
+        height: 2rem;
+
+        h4 {
+            line-height: 2rem;
+            font-size: 1.2rem;
+        }
+    }
+
+    .portolio-header::before,
+    .portolio-header::after {
+        width: 18%;
+    }
+
+    // End 450px
+}
